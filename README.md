@@ -18,6 +18,14 @@ Each numbered folder is a self-contained sketch.
 | `09-mpu6050-raw` | Raw IMU registers over I2C, no library |
 | `10-mpu6050-tilt` | Gyro bias calibration + complementary filter |
 | `11-pin-probe` | Empirical pin discovery for unknown motor drivers |
+| `02-serial-command` | Line-oriented command parser (reused everywhere after) |
+| `03-i2c-scan` | Bus scan; identifies shields and sensors by address |
+| `04-motor-basics` | Single DC motor, Adafruit Motor Shield v2 |
+| `05-two-wheel` | Differential drive with port mapping and trim |
+| `08-elegoo-motors` | Elegoo V4 TB6612FNG, two motor pairs |
+| `09-mpu6050-raw` | Raw IMU registers over I2C, no library |
+| `10-mpu6050-tilt` | Gyro bias calibration + complementary filter |
+| `11-pin-probe` | Empirical pin discovery for unknown motor drivers |
 
 ## Build & flash
 
