@@ -12,5 +12,5 @@ arduino-cli compile --fqbn "$FQBN" "$SKETCH"
 arduino-cli upload -p "$PORT" --fqbn "$FQBN" "$SKETCH"
 
 if [ "${2:-}" = "--monitor" ]; then
-  arduino-cli monitor -p "$PORT" -c baud=115200
+  arduino-cli monitor -p "$PORT" --fqbn "$FQBN" -c baudrate=115200
 fi
