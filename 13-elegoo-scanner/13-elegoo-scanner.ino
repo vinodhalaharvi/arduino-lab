@@ -196,7 +196,6 @@ void handle(const char *cmd) {
     head.write(LOOK_AHEAD);
 
   } else if (!strcmp(cmd, "auto")) {
-    lastSense = 0; enter(DRIVE);
     Serial.println(F("ok: auto"));
 
   } else if (!strcmp(cmd, "status")) {
