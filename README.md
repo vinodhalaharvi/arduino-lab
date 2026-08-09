@@ -18,6 +18,8 @@ Each numbered folder is a self-contained sketch.
 | `09-mpu6050-raw` | Raw IMU registers over I2C, no library |
 | `10-mpu6050-tilt` | Gyro bias calibration + complementary filter |
 | `11-pin-probe` | Empirical pin discovery for unknown motor drivers |
+| `12-elegoo-ranger` | HC-SR04 ranging + autonomous obstacle avoidance |
+| `13-elegoo-scanner` | Servo-panned sensor; scans left/right and picks the open side |
 | `02-serial-command` | Line-oriented command parser (reused everywhere after) |
 | `03-i2c-scan` | Bus scan; identifies shields and sensors by address |
 | `04-motor-basics` | Single DC motor, Adafruit Motor Shield v2 |
@@ -26,6 +28,8 @@ Each numbered folder is a self-contained sketch.
 | `09-mpu6050-raw` | Raw IMU registers over I2C, no library |
 | `10-mpu6050-tilt` | Gyro bias calibration + complementary filter |
 | `11-pin-probe` | Empirical pin discovery for unknown motor drivers |
+| `12-elegoo-ranger` | HC-SR04 ranging + autonomous obstacle avoidance |
+| `13-elegoo-scanner` | Servo-panned sensor; scans left/right and picks the open side |
 
 ## Build & flash
 
