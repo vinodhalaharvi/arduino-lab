@@ -1,0 +1,18 @@
+dependencies:
+  espressif/iperf:
+    version: =1.0.3
+  idf: '>=4.3'
+description: Iperf command based on esp-idf console
+documentation: https://iperf.fr/iperf-doc.php
+files:
+  exclude:
+  - doxygen/**/*
+  - doxygen
+issues: https://github.com/espressif/iperf-cmd/issues
+license: Apache-2.0
+repository: git://github.com/espressif/iperf-cmd.git
+repository_info:
+  commit_sha: f9e541b232a034bfa676eddf3c6bba7d262b3a66
+  path: iperf-cmd
+url: https://github.com/espressif/iperf-cmd/tree/master/iperf-cmd
+version: 1.0.3
