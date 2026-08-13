@@ -8,3 +8,6 @@ build/
 sdkconfig
 sdkconfig.old
 *.defaults
+sdkconfig
+sdkconfig.old
+*.defaults
