@@ -1,0 +1,10 @@
+dependencies:
+  idf:
+    version: '>=5.0'
+description: Espressif OpenThread CLI Extension
+repository: git://github.com/espressif/esp-thread-br.git
+repository_info:
+  commit_sha: 625ad9320b5df5b3e9b6fe0894ec6aad461a3124
+  path: components/esp_ot_cli_extension
+url: https://github.com/espressif/esp-thread-br/tree/main/components/esp_ot_cli_extension
+version: 2.0.3
