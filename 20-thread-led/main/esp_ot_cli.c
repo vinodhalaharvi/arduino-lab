@@ -32,6 +32,7 @@
 #include "ot_examples_common.h"
 #include "led_coap.h"
 #include "relay_coap.h"
+#include "thread_autostart.h"
 
 #if CONFIG_OPENTHREAD_STATE_INDICATOR_ENABLE
 #include "ot_led_strip.h"
@@ -81,6 +82,7 @@ void app_main(void)
 #endif
     led_coap_init();
     relay_coap_init();
+    thread_autostart();
 #if CONFIG_OPENTHREAD_NETWORK_AUTO_START
     ot_network_auto_start();
 #endif
