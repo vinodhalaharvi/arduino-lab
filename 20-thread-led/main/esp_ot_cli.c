@@ -31,6 +31,7 @@
 #include "nvs_flash.h"
 #include "ot_examples_common.h"
 #include "led_coap.h"
+#include "relay_coap.h"
 
 #if CONFIG_OPENTHREAD_STATE_INDICATOR_ENABLE
 #include "ot_led_strip.h"
@@ -79,6 +80,7 @@ void app_main(void)
     ESP_ERROR_CHECK(esp_openthread_state_indicator_init(esp_openthread_get_instance()));
 #endif
     led_coap_init();
+    relay_coap_init();
 #if CONFIG_OPENTHREAD_NETWORK_AUTO_START
     ot_network_auto_start();
 #endif
