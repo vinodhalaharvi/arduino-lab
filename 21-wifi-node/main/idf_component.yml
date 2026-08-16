@@ -1,0 +1,10 @@
+## IDF Component Manager Manifest File
+dependencies:
+  idf:
+    version: ">=5.0"
+  espressif/coap:
+    version: "^4.3.5"
+  espressif/esp32-camera:
+    version: "^2.0.15"
+  protocol_examples_common:
+    path: ${IDF_PATH}/examples/common_components/protocol_examples_common
